@@ -103,6 +103,8 @@ pub mod platform;
 pub mod serde;
 #[cfg(target_os = "windows")]
 mod winrtble;
+// #[cfg(feature = "mock")]
+mod mock;
 
 /// The main error type returned by most methods in btleplug.
 #[derive(Debug, thiserror::Error)]

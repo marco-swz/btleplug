@@ -20,6 +20,7 @@ path = "src/lib.rs"
 
 [features]
 serde = ["uuid/serde", "serde_cr", "serde_bytes"]
+mock = []
 
 [dependencies]
 async-trait = "0.1.88"
